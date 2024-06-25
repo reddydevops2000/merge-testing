@@ -1,5 +1,5 @@
 aws resource "aws_instance= "demo-server"{
 key_pair= "centos"
 ami="ami-8k60ke53jde8tbn"
-instace_type="t2-nano"
+instace_type="t2-micro"
 }
